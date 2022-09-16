@@ -1,0 +1,15 @@
+video{
+    z-index: -2;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+
+
+}
+

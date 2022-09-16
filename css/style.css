@@ -1,0 +1,86 @@
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/video.css");
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.image-right{
+    height: 200px;
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(255, 249, 239);
+    width: 50%;
+    padding: 20px;
+    border: 20px solid rgb(145, 87, 46);
+    
+    
+}
+.image-left{
+    height: 200px;
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+}   
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(206, 201, 192);
+    width: 50%;
+    padding: 20px;
+    border: 20px solid black;
+    
+   
+    
+}
+.colonnes{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+#bouton{
+    background-color: chocolate;
+    size:  200px 50px;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.last-banner{
+    background-color: rgb(129, 127, 127);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+#cb{
+    margin: 55px;
+    width: 40%;
+}
+#rcertif{
+    height: 0.5cm;
+    width: 0.5cm;
+    margin-left: 200px;
+    margin-right: 5px;
+}
+    
